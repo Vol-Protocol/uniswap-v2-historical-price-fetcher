@@ -8,14 +8,18 @@ fetch(uniswapV2Endpoint, {
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
     query: `
-    query getPrice {
-      pairs {
+    query get1stPrice {
+      pairs(
+        block: { 
+          number: 11386176
+        }
+      ){
         id
-        token0 {
+        token0(where: {symbol: "DAI"}) {
           symbol
         }
         token0Price
-        token1 {
+        token1(where: {symbol: "DAI"}) {
           symbol
         }
         token1Price
