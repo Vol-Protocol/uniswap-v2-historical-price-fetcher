@@ -1,1 +1,1 @@
-# uniswap-v3-historical-price-fetcher
+# uniswap-v2-historical-price-fetcher
