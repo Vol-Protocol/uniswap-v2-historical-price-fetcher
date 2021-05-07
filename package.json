@@ -1,0 +1,22 @@
+{
+  "name": "uniswap-v2-historical-price-fetcher",
+  "version": "1.0.0",
+  "description": "Query historical price data of the last 30 days from Uniswap V2 through [their subgraph](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2).",
+  "main": "fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vol-Protocol/uniswap-v3-historical-price-fetcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vol-Protocol/uniswap-v3-historical-price-fetcher/issues"
+  },
+  "homepage": "https://github.com/Vol-Protocol/uniswap-v3-historical-price-fetcher#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
